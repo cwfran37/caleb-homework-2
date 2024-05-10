@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+}
+
+.header {
+    display: block;
+    border-width: 2px;
+    border-color: black;
+    padding: 20px;
+    font-size: large;
+    background-color: white;
+}
+
+.dinosaur p {
+    display: inline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+#my-work {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+#freak {
+    font-weight: bold;
+}
+
+
+#contact-info {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+
